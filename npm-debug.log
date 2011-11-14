@@ -1,0 +1,580 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'inotify-plusplus' ]
+info using npm@1.0.105
+info using node@v0.6.0
+verbose config file /Users/craig/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+silly testEngine { name: 'watchr',
+silly testEngine   description: '',
+silly testEngine   version: '0.0.1',
+silly testEngine   repository: { url: '' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   dependencies: { structr: '*', inotify: '*' },
+silly testEngine   devDependencies: {},
+silly testEngine   main: './lib/index.js',
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' },
+silly testEngine   _id: 'watchr@0.0.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.105',
+silly testEngine   _nodeVersion: 'v0.6.0',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/craig/Dropbox/Developer/Public/watchr/package.json
+verbose loadDefaults watchr@0.0.1
+silly testEngine { name: 'structr',
+silly testEngine   description: 'Clean OO structure for Javascript.',
+silly testEngine   version: '0.0.10',
+silly testEngine   author: { name: 'Craig Condon' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/spiceapps/Structr.git' },
+silly testEngine   main: './structr.js',
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' },
+silly testEngine   _id: 'structr@0.0.10',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.105',
+silly testEngine   _nodeVersion: 'v0.6.0',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/craig/Dropbox/Developer/Public/watchr/node_modules/structr/package.json
+verbose loadDefaults structr@0.0.10
+verbose from cache /Users/craig/Dropbox/Developer/Public/watchr/package.json
+verbose into /Users/craig/Dropbox/Developer/Public/watchr [ 'inotify-plusplus' ]
+verbose cache add inotify-plusplus
+verbose cache add [ 'inotify-plusplus', null ]
+silly cache add: name, spec, args [ undefined, 'inotify-plusplus', [ 'inotify-plusplus', null ] ]
+verbose parsed url { pathname: 'inotify-plusplus',
+verbose parsed url   path: 'inotify-plusplus',
+verbose parsed url   href: 'inotify-plusplus' }
+info addNamed [ 'inotify-plusplus', '' ]
+verbose addNamed [ null, '' ]
+verbose GET inotify-plusplus
+verbose raw, before any munging inotify-plusplus
+verbose url resolving [ 'https://registry.npmjs.org/', './inotify-plusplus' ]
+verbose url resolved https://registry.npmjs.org/inotify-plusplus
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"ECZBWXF8UQRJEMFWTKE4P76MM"',
+silly get cb     date: 'Mon, 14 Nov 2011 00:50:11 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2719' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/inotify-plusplus'
+verbose mkdir done: /Users/craig/.npm/inotify-plusplus 755
+verbose GET inotify-plusplus/1.0.1
+verbose raw, before any munging inotify-plusplus/1.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './inotify-plusplus/1.0.1' ]
+verbose url resolved https://registry.npmjs.org/inotify-plusplus/1.0.1
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"ECZBWXF8UQRJEMFWTKE4P76MM"',
+silly get cb     date: 'Mon, 14 Nov 2011 00:50:12 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '944' } ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/inotify-plusplus/1.0.1'
+verbose mkdir done: /Users/craig/.npm/inotify-plusplus/1.0.1 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.6-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '1b120c917d986d54da46ec6bd2dc557baad54171',
+verbose bin dist     tarball: 'http://registry.npmjs.org/inotify-plusplus/-/inotify-plusplus-1.0.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/inotify-plusplus/-/inotify-plusplus-1.0.1.tgz',
+verbose addRemoteTarball   '1b120c917d986d54da46ec6bd2dc557baad54171' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1321231813338'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1321231813338/1321231813338-0.46579019562341273'
+verbose mkdir done: /tmp/npm-1321231813338/1321231813338-0.46579019562341273 755
+info fetch https://registry.npmjs.org/inotify-plusplus/-/inotify-plusplus-1.0.1.tgz
+verbose fetch to /tmp/npm-1321231813338/1321231813338-0.46579019562341273/tmp.tgz
+silly updated sha bytes 5868
+info shasum 1b120c917d986d54da46ec6bd2dc557baad54171
+info shasum /tmp/npm-1321231813338/1321231813338-0.46579019562341273/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm 755
+verbose unpack_ uid, gid [ 501, 20 ]
+verbose unpackTarget /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/tmp/npm-1321231813338/1321231813338-0.46579019562341273/tmp.tgz',
+silly spawning     '-o' ],
+silly spawning   '/tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm' ]
+silly tar err x package/package.json
+silly tar err x package/README.md
+silly tar err x package/examples/inotify++-test.js
+silly tar err x package/examples/watch-cli.js
+silly tar err x package/examples/watch-individual-files.js
+silly tar err x package/examples/watch-not-yet-created-files.js
+silly tar err x package/lib/inotify++.js
+silly tar err x package/tests/npm-installed-test.js
+silly tar exit 0
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/README.md
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/examples
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/examples/inotify++-test.js
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/examples/watch-cli.js
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/examples/watch-individual-files.js
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/examples/watch-not-yet-created-files.js
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/lib
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/lib/inotify++.js
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/tests
+silly asyncMap in gTP /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package/tests/npm-installed-test.js
+silly chmod package.json 644
+silly chmod README.md 644
+silly chmod watch-cli.js 755
+silly chmod watch-individual-files.js 644
+silly chmod watch-not-yet-created-files.js 644
+silly chmod inotify++.js 644
+silly chmod npm-installed-test.js 644
+verbose gunzed /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/package
+verbose renamed [ '/tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/package' ]
+silly testEngine { name: 'inotify-plusplus',
+silly testEngine   description: 'A wrapper around node-inotify that is more like JavaScript, less like C, and easier for beginners',
+silly testEngine   url: 'http://github.com/coolaj86/node-inotify-plusplus/',
+silly testEngine   keywords: [ 'util', 'inotify' ],
+silly testEngine   author: { name: 'AJ ONeal', email: 'coolaj86@gmail.com' },
+silly testEngine   contributors: [],
+silly testEngine   dependencies: { inotify: '' },
+silly testEngine   lib: 'lib',
+silly testEngine   main: './lib/inotify++',
+silly testEngine   version: '1.0.1',
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' },
+silly testEngine   _id: 'inotify-plusplus@1.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.105',
+silly testEngine   _nodeVersion: 'v0.6.0',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/package' }
+verbose caching /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/package/package.json
+verbose loadDefaults inotify-plusplus@1.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/package/package.json
+verbose pack /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/package /Users/craig/.npm/inotify-plusplus/1.0.1/package.tgz
+silly makeList /tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents/package
+verbose mkdir'ed /Users/craig/.npm/inotify-plusplus/1.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/tmp/npm-1321231813338/1321231813338-0.46579019562341273/contents' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm'
+verbose mkdir done: /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm 755
+verbose unpack_ uid, gid [ 501, 20 ]
+verbose unpackTarget /Users/craig/.npm/inotify-plusplus/1.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/Users/craig/.npm/inotify-plusplus/1.0.1/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm' ]
+silly tar err x package/package.json
+silly tar err x package/README.md
+silly tar err x package/examples/inotify++-test.js
+silly tar err x package/examples/watch-cli.js
+silly tar err x package/examples/watch-individual-files.js
+silly tar err x package/examples/watch-not-yet-created-files.js
+silly tar err x package/lib/inotify++.js
+silly tar err x package/tests/npm-installed-test.js
+silly tar exit 0
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/README.md
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/examples
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/examples/inotify++-test.js
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/examples/watch-cli.js
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/examples/watch-individual-files.js
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/examples/watch-not-yet-created-files.js
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/tests
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/tests/npm-installed-test.js
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/lib
+silly asyncMap in gTP /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package/lib/inotify++.js
+verbose gunzed /Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package
+verbose rm'ed /Users/craig/.npm/inotify-plusplus/1.0.1/package
+verbose renamed [ '/Users/craig/.npm/inotify-plusplus/1.0.1/___package.npm/package',
+verbose renamed   '/Users/craig/.npm/inotify-plusplus/1.0.1/package' ]
+silly testEngine { name: 'inotify-plusplus',
+silly testEngine   description: 'A wrapper around node-inotify that is more like JavaScript, less like C, and easier for beginners',
+silly testEngine   url: 'http://github.com/coolaj86/node-inotify-plusplus/',
+silly testEngine   keywords: [ 'util', 'inotify' ],
+silly testEngine   author: { name: 'AJ ONeal', email: 'coolaj86@gmail.com' },
+silly testEngine   contributors: [],
+silly testEngine   dependencies: { inotify: '' },
+silly testEngine   lib: 'lib',
+silly testEngine   main: './lib/inotify++',
+silly testEngine   version: '1.0.1',
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' },
+silly testEngine   _id: 'inotify-plusplus@1.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.105',
+silly testEngine   _nodeVersion: 'v0.6.0',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: '02c8c45985f8f417ec0cbb87ddc89ac4f75fb58d' },
+silly testEngine   scripts: {} }
+verbose caching /Users/craig/.npm/inotify-plusplus/1.0.1/package/package.json
+verbose loadDefaults inotify-plusplus@1.0.1
+silly updated sha bytes 10240
+info shasum 02c8c45985f8f417ec0cbb87ddc89ac4f75fb58d
+info shasum /Users/craig/.npm/inotify-plusplus/1.0.1/package.tgz
+verbose from cache /Users/craig/.npm/inotify-plusplus/1.0.1/package/package.json
+verbose chmod /Users/craig/.npm/inotify-plusplus/1.0.1/package.tgz 644
+verbose chown [ '/Users/craig/.npm/inotify-plusplus/1.0.1/package.tgz',
+verbose chown   501,
+verbose chown   20 ]
+silly resolved [ { name: 'inotify-plusplus',
+silly resolved     description: 'A wrapper around node-inotify that is more like JavaScript, less like C, and easier for beginners',
+silly resolved     url: 'http://github.com/coolaj86/node-inotify-plusplus/',
+silly resolved     keywords: [ 'util', 'inotify' ],
+silly resolved     author: { name: 'AJ ONeal', email: 'coolaj86@gmail.com' },
+silly resolved     contributors: [],
+silly resolved     dependencies: { inotify: '' },
+silly resolved     lib: 'lib',
+silly resolved     main: './lib/inotify++',
+silly resolved     version: '1.0.1',
+silly resolved     _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' },
+silly resolved     _id: 'inotify-plusplus@1.0.1',
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.105',
+silly resolved     _nodeVersion: 'v0.6.0',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '02c8c45985f8f417ec0cbb87ddc89ac4f75fb58d' },
+silly resolved     scripts: {} } ]
+info into /Users/craig/Dropbox/Developer/Public/watchr inotify-plusplus@1.0.1
+info installOne inotify-plusplus@1.0.1
+info unbuild /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus
+verbose from cache /Users/craig/.npm/inotify-plusplus/1.0.1/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm'
+verbose mkdir done: /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm 755
+verbose unpack_ uid, gid [ 501, 20 ]
+verbose unpackTarget /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/Users/craig/.npm/inotify-plusplus/1.0.1/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm' ]
+silly tar err x package/package.json
+silly tar err x package/README.md
+silly tar err x package/examples/inotify++-test.js
+silly tar err x package/examples/watch-cli.js
+silly tar err x package/examples/watch-individual-files.js
+silly tar err x package/examples/watch-not-yet-created-files.js
+silly tar err x package/lib/inotify++.js
+silly tar err x package/tests/npm-installed-test.js
+silly tar exit 0
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/package.json
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/README.md
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/examples
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/examples/inotify++-test.js
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/examples/watch-cli.js
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/examples/watch-individual-files.js
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/examples/watch-not-yet-created-files.js
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/lib
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/lib/inotify++.js
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/tests
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package/tests/npm-installed-test.js
+verbose gunzed /Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package
+verbose rm'ed /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus
+verbose renamed [ '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/___inotify-plusplus.npm/package',
+verbose renamed   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus' ]
+silly testEngine { name: 'inotify-plusplus',
+silly testEngine   description: 'A wrapper around node-inotify that is more like JavaScript, less like C, and easier for beginners',
+silly testEngine   url: 'http://github.com/coolaj86/node-inotify-plusplus/',
+silly testEngine   keywords: [ 'util', 'inotify' ],
+silly testEngine   author: { name: 'AJ ONeal', email: 'coolaj86@gmail.com' },
+silly testEngine   contributors: [],
+silly testEngine   dependencies: { inotify: '' },
+silly testEngine   lib: 'lib',
+silly testEngine   main: './lib/inotify++',
+silly testEngine   version: '1.0.1',
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' },
+silly testEngine   _id: 'inotify-plusplus@1.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.105',
+silly testEngine   _nodeVersion: 'v0.6.0',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/package.json
+verbose loadDefaults inotify-plusplus@1.0.1
+info preinstall inotify-plusplus@1.0.1
+verbose from cache /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/package.json
+verbose into /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus [ 'inotify@' ]
+verbose cache add inotify@
+verbose cache add [ 'inotify@', null ]
+silly cache add: name, spec, args [ undefined, 'inotify@', [ 'inotify@', null ] ]
+verbose parsed url { pathname: 'inotify@', path: 'inotify@', href: 'inotify@' }
+silly cache add: name, spec, args [ 'inotify', '', [ 'inotify', '' ] ]
+verbose parsed url { href: '' }
+info addNamed [ 'inotify', '' ]
+verbose addNamed [ null, '' ]
+verbose GET inotify
+verbose raw, before any munging inotify
+verbose url resolving [ 'https://registry.npmjs.org/', './inotify' ]
+verbose url resolved https://registry.npmjs.org/inotify
+verbose etag "7XWS1BPVF7Q8PTPYJQ01OLTMB"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"7XWS1BPVF7Q8PTPYJQ01OLTMB"',
+silly get cb     date: 'Mon, 14 Nov 2011 00:50:14 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag inotify from cache
+verbose GET inotify/0.2.1
+verbose raw, before any munging inotify/0.2.1
+verbose url resolving [ 'https://registry.npmjs.org/', './inotify/0.2.1' ]
+verbose url resolved https://registry.npmjs.org/inotify/0.2.1
+verbose etag "7XWS1BPVF7Q8PTPYJQ01OLTMB"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"7XWS1BPVF7Q8PTPYJQ01OLTMB"',
+silly get cb     date: 'Mon, 14 Nov 2011 00:50:15 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag inotify/0.2.1 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.6-darwin-x64-11.2.0',
+verbose bin dist   { shasum: '99df0b30e4d62386c57feb67bb8a20f9cb0a4da9',
+verbose bin dist     tarball: 'http://registry.npmjs.org/inotify/-/inotify-0.2.1.tgz' } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/Users/craig/.npm/inotify/0.2.1/package/package.json',
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true,
+verbose has wscript     contributors: 
+verbose has wscript      [ 'Camilo Aguilar <camilo at cloudescape.com>',
+verbose has wscript        'Jérémy Lal <jerry at edagames.com>',
+verbose has wscript        'Brian Ingalls <bingalls at compete.com>',
+verbose has wscript        'Yannick Croissant - http://yannick.cr/',
+verbose has wscript        'Michael Boe <mschuylerb at gmail.com>' ] } ]
+silly testEngine { name: 'inotify',
+silly testEngine   version: '0.2.1',
+silly testEngine   author: { name: 'Camilo Aguilar', email: 'camilo@cloudescape.com' },
+silly testEngine   email: 'camilo@cloudescape.com',
+silly testEngine   keywords: 
+silly testEngine    [ 'inotify',
+silly testEngine      'watch',
+silly testEngine      'monitor',
+silly testEngine      'watch files',
+silly testEngine      'watch directories' ],
+silly testEngine   description: 'inotify bindings for v8 javascript engine',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/c4milo/node-inotify.git' },
+silly testEngine   scripts: { install: 'node-waf configure build' },
+silly testEngine   engines: { node: '0.4 || 0.5 || 0.6' },
+silly testEngine   main: 'inotify',
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' },
+silly testEngine   _id: 'inotify@0.2.1',
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Camilo Aguilar', email: 'camilo at cloudescape.com' },
+silly testEngine      { name: 'Jérémy Lal', email: 'jerry at edagames.com' },
+silly testEngine      { name: 'Brian Ingalls', email: 'bingalls at compete.com' },
+silly testEngine      { name: 'Yannick Croissant - http://yannick.cr/' },
+silly testEngine      { name: 'Michael Boe', email: 'mschuylerb at gmail.com' } ],
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.105',
+silly testEngine   _nodeVersion: 'v0.6.0',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/craig/.npm/inotify/0.2.1/package/package.json
+verbose loadDefaults inotify@0.2.1
+silly resolved [ { name: 'inotify',
+silly resolved     version: '0.2.1',
+silly resolved     author: { name: 'Camilo Aguilar', email: 'camilo@cloudescape.com' },
+silly resolved     email: 'camilo@cloudescape.com',
+silly resolved     keywords: 
+silly resolved      [ 'inotify',
+silly resolved        'watch',
+silly resolved        'monitor',
+silly resolved        'watch files',
+silly resolved        'watch directories' ],
+silly resolved     description: 'inotify bindings for v8 javascript engine',
+silly resolved     repository: { type: 'git', url: 'git://github.com/c4milo/node-inotify.git' },
+silly resolved     scripts: { install: 'node-waf configure build' },
+silly resolved     engines: { node: '0.4 || 0.5 || 0.6' },
+silly resolved     main: 'inotify',
+silly resolved     _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' },
+silly resolved     _id: 'inotify@0.2.1',
+silly resolved     contributors: 
+silly resolved      [ { name: 'Camilo Aguilar', email: 'camilo at cloudescape.com' },
+silly resolved        { name: 'Jérémy Lal', email: 'jerry at edagames.com' },
+silly resolved        { name: 'Brian Ingalls', email: 'bingalls at compete.com' },
+silly resolved        { name: 'Yannick Croissant - http://yannick.cr/' },
+silly resolved        { name: 'Michael Boe', email: 'mschuylerb at gmail.com' } ],
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.105',
+silly resolved     _nodeVersion: 'v0.6.0',
+silly resolved     _defaultsLoaded: true } ]
+info into /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus inotify@0.2.1
+info installOne inotify@0.2.1
+info unbuild /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify
+verbose from cache /Users/craig/.npm/inotify/0.2.1/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm'
+verbose mkdir done: /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm 755
+verbose unpack_ uid, gid [ 501, 20 ]
+verbose unpackTarget /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/Users/craig/.npm/inotify/0.2.1/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm' ]
+silly tar err x package/.gitignore
+silly tar err x package/AUTHORS
+silly tar err x package/example.js
+silly tar err x package/LICENSE
+silly tar err x package/package.json
+silly tar err x package/README.md
+silly tar err x package/wscript
+silly tar err x package/inotify.node
+silly tar err x package/src/bindings.cc
+silly tar err x package/src/bindings.h
+silly tar err x package/src/node_inotify.cc
+silly tar err x package/src/node_inotify.h
+silly tar err x package/src/wscript
+silly tar exit 0
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/.gitignore
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/AUTHORS
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/example.js
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/inotify.node
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/LICENSE
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/package.json
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/README.md
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/wscript
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/src
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/src/bindings.cc
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/src/bindings.h
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/src/node_inotify.cc
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/src/node_inotify.h
+silly asyncMap in gTP /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package/src/wscript
+verbose gunzed /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package
+verbose rm'ed /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify
+verbose renamed [ '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/___inotify.npm/package',
+verbose renamed   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify/package.json',
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true,
+verbose has wscript     contributors: 
+verbose has wscript      [ 'Camilo Aguilar <camilo at cloudescape.com>',
+verbose has wscript        'Jérémy Lal <jerry at edagames.com>',
+verbose has wscript        'Brian Ingalls <bingalls at compete.com>',
+verbose has wscript        'Yannick Croissant - http://yannick.cr/',
+verbose has wscript        'Michael Boe <mschuylerb at gmail.com>' ] } ]
+silly testEngine { name: 'inotify',
+silly testEngine   version: '0.2.1',
+silly testEngine   author: { name: 'Camilo Aguilar', email: 'camilo@cloudescape.com' },
+silly testEngine   email: 'camilo@cloudescape.com',
+silly testEngine   keywords: 
+silly testEngine    [ 'inotify',
+silly testEngine      'watch',
+silly testEngine      'monitor',
+silly testEngine      'watch files',
+silly testEngine      'watch directories' ],
+silly testEngine   description: 'inotify bindings for v8 javascript engine',
+silly testEngine   repository: { type: 'git', url: 'git://github.com/c4milo/node-inotify.git' },
+silly testEngine   scripts: { install: 'node-waf configure build' },
+silly testEngine   engines: { node: '0.4 || 0.5 || 0.6' },
+silly testEngine   main: 'inotify',
+silly testEngine   _npmUser: { name: 'architectd', email: 'craig.j.condon@gmail.com' },
+silly testEngine   _id: 'inotify@0.2.1',
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Camilo Aguilar', email: 'camilo at cloudescape.com' },
+silly testEngine      { name: 'Jérémy Lal', email: 'jerry at edagames.com' },
+silly testEngine      { name: 'Brian Ingalls', email: 'bingalls at compete.com' },
+silly testEngine      { name: 'Yannick Croissant - http://yannick.cr/' },
+silly testEngine      { name: 'Michael Boe', email: 'mschuylerb at gmail.com' } ],
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.105',
+silly testEngine   _nodeVersion: 'v0.6.0',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify/package.json
+verbose loadDefaults inotify@0.2.1
+info preinstall inotify@0.2.1
+verbose from cache /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify/package.json
+verbose into /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify []
+silly resolved []
+verbose about to build /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify
+info build /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify
+verbose from cache /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify/package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules' ]
+info linkStuff inotify@0.2.1
+verbose linkBins inotify@0.2.1
+verbose linkMans inotify@0.2.1
+verbose rebuildBundles inotify@0.2.1
+info install inotify@0.2.1
+verbose unsafe-perm in lifecycle false
+verbose Setting uid from 0 501
+verbose stack at uid setting Error
+verbose stack at uid setting     at exec (/usr/local/lib/node_modules/npm/lib/utils/exec.js:35:17)
+verbose stack at uid setting     at Array.0 (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:127:5)
+verbose stack at uid setting     at EventEmitter._tickCallback (node.js:192:40)
+silly exec sh "-c" "node-waf configure build"
+silly spawning [ 'sh',
+silly spawning   [ '-c', 'node-waf configure build' ],
+silly spawning   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify' ]
+info inotify@0.2.1 Failed to exec install script
+ERR! error installing inotify@0.2.1 Error: inotify@0.2.1 install: `node-waf configure build`
+ERR! error installing inotify@0.2.1 `sh "-c" "node-waf configure build"` failed with 1
+ERR! error installing inotify@0.2.1     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/exec.js:49:20)
+ERR! error installing inotify@0.2.1     at ChildProcess.emit (events.js:70:17)
+ERR! error installing inotify@0.2.1     at maybeExit (child_process.js:359:16)
+ERR! error installing inotify@0.2.1     at Process.onexit (child_process.js:395:5)
+info unbuild /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify
+verbose from cache /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules/inotify/package.json
+info preuninstall inotify@0.2.1
+info uninstall inotify@0.2.1
+verbose unbuild inotify@0.2.1 [ false,
+verbose unbuild inotify@0.2.1   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules',
+verbose unbuild inotify@0.2.1   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/node_modules' ]
+info postuninstall inotify@0.2.1
+verbose installOne cb inotify@0.2.1
+verbose about to build /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus
+ERR! error installing inotify-plusplus@1.0.1 Error: inotify@0.2.1 install: `node-waf configure build`
+ERR! error installing inotify-plusplus@1.0.1 `sh "-c" "node-waf configure build"` failed with 1
+ERR! error installing inotify-plusplus@1.0.1     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/exec.js:49:20)
+ERR! error installing inotify-plusplus@1.0.1     at ChildProcess.emit (events.js:70:17)
+ERR! error installing inotify-plusplus@1.0.1     at maybeExit (child_process.js:359:16)
+ERR! error installing inotify-plusplus@1.0.1     at Process.onexit (child_process.js:395:5)
+info unbuild /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus
+verbose from cache /Users/craig/Dropbox/Developer/Public/watchr/node_modules/inotify-plusplus/package.json
+info preuninstall inotify-plusplus@1.0.1
+info uninstall inotify-plusplus@1.0.1
+verbose unbuild inotify-plusplus@1.0.1 [ true,
+verbose unbuild inotify-plusplus@1.0.1   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules',
+verbose unbuild inotify-plusplus@1.0.1   '/Users/craig/Dropbox/Developer/Public/watchr/node_modules' ]
+info postuninstall inotify-plusplus@1.0.1
+verbose installOne cb inotify-plusplus@1.0.1
+ERR! inotify@0.2.1 install: `node-waf configure build`
+ERR! `sh "-c" "node-waf configure build"` failed with 1
+ERR! 
+ERR! Failed at the inotify@0.2.1 install script.
+ERR! This is most likely a problem with the inotify package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-waf configure build
+ERR! You can get their info via:
+ERR!     npm owner ls inotify
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Darwin 11.2.0
+ERR! command "node" "/usr/local/bin/npm" "install" "inotify-plusplus"
+ERR! cwd /Users/craig/Dropbox/Developer/Public/watchr
+ERR! node -v v0.6.0
+ERR! npm -v 1.0.105
+ERR! code ELIFECYCLE
+verbose exit [ 1, true ]

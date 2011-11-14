@@ -1,0 +1,16 @@
+{
+  "name": "watchr",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+  },
+  "engines": {
+  }, 
+  "dependencies": { 
+	"structr": "*",
+	"inotify":"*" 
+  },
+  "devDependencies": {
+  },
+  "main":"./lib/index.js"
+}
