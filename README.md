@@ -5,7 +5,7 @@
 - ability to ignore files with `.ignorewatch` including list of files to ignore (similar to `.gitignore`). Use `*` to ignore all files in `.ignorewatch` directory. 
 
 
-````javascript
+````javascript 
   
 var watch_r = require('watch_r');
 
