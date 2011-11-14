@@ -1,5 +1,5 @@
 {
-  "name": "watchr",
+  "name": "watch_r",
   "description": "",
   "version": "0.0.1",
   "repository": {
@@ -7,8 +7,7 @@
   "engines": {
   }, 
   "dependencies": { 
-	"structr": "*",
-	"inotify":"*" 
+	"structr": "*"
   },
   "devDependencies": {
   },
