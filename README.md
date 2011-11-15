@@ -7,6 +7,8 @@
 ## Installation
 
 	npm install watch_r
+	
+## Example
 
 ````javascript 
   
