@@ -4,6 +4,9 @@
 - **watch new dirs/files that have been added to any watched directory** 
 - ability to ignore files with `.ignorewatch` including list of files to ignore (similar to `.gitignore`). Use `*` to ignore all files in `.ignorewatch` directory. 
 
+## Installation
+
+	npm install watch_r
 
 ````javascript 
   
