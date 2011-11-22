@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>package.json</string>
+	<string>README.md</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -26,7 +26,21 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>10</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>examples/watchLogs.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>3</integer>
 				<key>line</key>
 				<integer>7</integer>
 			</dict>
@@ -40,23 +54,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>21</integer>
 				<key>line</key>
-				<integer>95</integer>
+				<integer>124</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>176</integer>
+			<integer>99</integer>
 		</dict>
 		<key>package.json</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>18</integer>
+				<integer>5</integer>
 				<key>line</key>
-				<integer>4</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -67,12 +81,13 @@
 	<key>openDocuments</key>
 	<array>
 		<string>lib/index.js</string>
+		<string>examples/watchLogs.js</string>
 		<string>README.md</string>
 		<string>package.json</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {504, 874}}</string>
+	<string>{{395, 4}, {504, 874}}</string>
 </dict>
 </plist>
