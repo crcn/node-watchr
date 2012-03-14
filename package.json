@@ -1,15 +1,12 @@
 {
-  "name": "watch_r",
-  "description": "",
-  "version": "0.0.2", 
-  "repository": { 
-  }, 
-  "engines": { 
-  }, 
-  "dependencies": { 
-	"structr": "*"
-  },  
-  "devDependencies": {
-  },
-  "main":"./lib/index.js"
+    "name": "watch_r",
+    "description": "",
+    "version": "0.0.3",
+    "repository": {},
+    "engines": {},
+    "dependencies": {
+        "structr": "*"
+    },
+    "devDependencies": {},
+    "main": "./lib/index.js"
 }
