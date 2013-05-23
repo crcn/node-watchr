@@ -1,15 +1,18 @@
 {
-    "name": "watch_r",
-    "description": "",
-    "version": "0.0.7",
-    "repository": {},
-    "engines": {},
-    "dependencies": {
-        "structr": "*"
-    },
-    "devDependencies": {},
-    "main": "./lib/index.js",
-    "bin": {
-        "watch_r": "./bin/watch_r"
-    }
+  "name": "watch_r",
+  "description": "",
+  "version": "0.0.8",
+  "repository": {},
+  "engines": {},
+  "dependencies": {
+    "structr": "*",
+    "ejs": "0.8.x",
+    "underscore": "1.4.x",
+    "commander": "1.1.x"
+  },
+  "devDependencies": {},
+  "main": "./lib/index.js",
+  "bin": {
+    "watch_r": "./bin/watch_r"
+  }
 }
