@@ -1,14 +1,16 @@
 {
   "name": "watch_r",
   "description": "",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "repository": {},
   "engines": {},
   "dependencies": {
     "structr": "*",
     "ejs": "0.8.x",
     "underscore": "1.4.x",
-    "commander": "1.1.x"
+    "commander": "1.1.x",
+    "async": "0.2.x",
+    "tq": "0.2.x"
   },
   "devDependencies": {},
   "main": "./lib/index.js",
