@@ -1,11 +1,11 @@
 {
   "name": "watch_r",
   "description": "",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "repository": {},
   "engines": {},
   "dependencies": {
-    "structr": "*",
+    "structr": "0.2.x",
     "ejs": "0.8.x",
     "underscore": "1.4.x",
     "commander": "1.1.x",
